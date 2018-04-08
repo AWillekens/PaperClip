@@ -1,0 +1,6 @@
+F:\Avondschool\module 4\Programmeren 3\PaperClip\PaperClip20180308\PaperClip.Business\bin\Debug\PaperClip.Business.dll
+F:\Avondschool\module 4\Programmeren 3\PaperClip\PaperClip20180308\PaperClip.Business\bin\Debug\PaperClip.Business.pdb
+F:\Avondschool\module 4\Programmeren 3\PaperClip\PaperClip20180308\PaperClip.Business\obj\Debug\PaperClip.Business.csprojResolveAssemblyReference.cache
+F:\Avondschool\module 4\Programmeren 3\PaperClip\PaperClip20180308\PaperClip.Business\obj\Debug\PaperClip.Business.csproj.CoreCompileInputs.cache
+F:\Avondschool\module 4\Programmeren 3\PaperClip\PaperClip20180308\PaperClip.Business\obj\Debug\PaperClip.Business.dll
+F:\Avondschool\module 4\Programmeren 3\PaperClip\PaperClip20180308\PaperClip.Business\obj\Debug\PaperClip.Business.pdb

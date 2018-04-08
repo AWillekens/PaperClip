@@ -12,6 +12,7 @@ namespace PaperClip.Business
         public int Klantnummer { get; set; }
         public string Btwnummer { get; set; }
         public Adres Adres { get; protected set; } = new Adres();
-        //public KlantCategorie KlantCategorie { get; set; } = new KlantCategorie();
+        public Vervaldag Vervaldag { get; set;}
+
 
     }

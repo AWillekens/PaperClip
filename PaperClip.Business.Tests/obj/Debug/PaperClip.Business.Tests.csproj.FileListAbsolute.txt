@@ -1,0 +1,16 @@
+F:\Avondschool\module 4\Programmeren 3\PaperClip\PaperClip20180308\PaperClip.Business.Tests\obj\Debug\PaperClip.Business.Tests.csprojResolveAssemblyReference.cache
+F:\Avondschool\module 4\Programmeren 3\PaperClip\PaperClip20180308\PaperClip.Business.Tests\obj\Debug\PaperClip.Business.Tests.csproj.CoreCompileInputs.cache
+F:\Avondschool\module 4\Programmeren 3\PaperClip\PaperClip20180308\PaperClip.Business.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+F:\Avondschool\module 4\Programmeren 3\PaperClip\PaperClip20180308\PaperClip.Business.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+F:\Avondschool\module 4\Programmeren 3\PaperClip\PaperClip20180308\PaperClip.Business.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+F:\Avondschool\module 4\Programmeren 3\PaperClip\PaperClip20180308\PaperClip.Business.Tests\bin\Debug\PaperClip.Business.Tests.dll
+F:\Avondschool\module 4\Programmeren 3\PaperClip\PaperClip20180308\PaperClip.Business.Tests\bin\Debug\PaperClip.Business.Tests.pdb
+F:\Avondschool\module 4\Programmeren 3\PaperClip\PaperClip20180308\PaperClip.Business.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+F:\Avondschool\module 4\Programmeren 3\PaperClip\PaperClip20180308\PaperClip.Business.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+F:\Avondschool\module 4\Programmeren 3\PaperClip\PaperClip20180308\PaperClip.Business.Tests\bin\Debug\PaperClip.Business.dll
+F:\Avondschool\module 4\Programmeren 3\PaperClip\PaperClip20180308\PaperClip.Business.Tests\bin\Debug\PaperClip.Business.pdb
+F:\Avondschool\module 4\Programmeren 3\PaperClip\PaperClip20180308\PaperClip.Business.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+F:\Avondschool\module 4\Programmeren 3\PaperClip\PaperClip20180308\PaperClip.Business.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+F:\Avondschool\module 4\Programmeren 3\PaperClip\PaperClip20180308\PaperClip.Business.Tests\obj\Debug\PaperClip.Business.Tests.csproj.CopyComplete
+F:\Avondschool\module 4\Programmeren 3\PaperClip\PaperClip20180308\PaperClip.Business.Tests\obj\Debug\PaperClip.Business.Tests.dll
+F:\Avondschool\module 4\Programmeren 3\PaperClip\PaperClip20180308\PaperClip.Business.Tests\obj\Debug\PaperClip.Business.Tests.pdb

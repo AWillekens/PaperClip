@@ -8,34 +8,36 @@ namespace PaperClip.Business
 {
     public class Vervaldag
     {
+
+        //refactoren om code niet te herhalen
+        public string VervaldagPolicy { get; set; }
         public DateTime EindeMaand(DateTime dateTime)
         {
-            //var vandaag = new DateTime();
-            return dateTime.Add//new DateTime(dateTime.Year, dateTime.Month, DateTime.DaysInMonth(dateTime.Year, dateTime.Month));
-        }
-        public DateTime DertigDagen(DateTime dateTime)
-        {
             return new DateTime(dateTime.Year, dateTime.Month, DateTime.DaysInMonth(dateTime.Year, dateTime.Month));
+        }
+        public DateTime DertigDagen()
+        {
+            return DateTime.Now.AddMonths(1);
         }
         public DateTime DertigDagenEindeMaand(DateTime dateTime)
         {
-            return new DateTime(dateTime.Year, dateTime.Month, DateTime.DaysInMonth(dateTime.Year, dateTime.Month));
+            return new DateTime(dateTime.Year, dateTime.Month, DateTime.DaysInMonth(dateTime.Year, dateTime.Month)).AddMonths(1);
         }
-        public DateTime ZestigDagen(DateTime dateTime)
+        public DateTime ZestigDagen()
         {
-            return new DateTime(dateTime.Year, dateTime.Month, DateTime.DaysInMonth(dateTime.Year, dateTime.Month));
+            return DateTime.Now.AddMonths(2);
         }
         public DateTime ZestigDagenEindeMaand(DateTime dateTime)
         {
-            return new DateTime(dateTime.Year, dateTime.Month, DateTime.DaysInMonth(dateTime.Year, dateTime.Month));
+            return new DateTime(dateTime.Year, dateTime.Month, DateTime.DaysInMonth(dateTime.Year, dateTime.Month)).AddMonths(2);
         }
-        public DateTime NegentigDagen(DateTime dateTime)
+        public DateTime NegentigDagen()
         {
-            return new DateTime(dateTime.Year, dateTime.Month, DateTime.DaysInMonth(dateTime.Year, dateTime.Month));
+            return DateTime.Now.AddMonths(3);
         }
         public DateTime NegentigDagenEindeMaand(DateTime dateTime)
         {
-            return new DateTime(dateTime.Year, dateTime.Month, DateTime.DaysInMonth(dateTime.Year, dateTime.Month));
+            return new DateTime(dateTime.Year, dateTime.Month, DateTime.DaysInMonth(dateTime.Year, dateTime.Month)).AddMonths(3);
         }
     }
 }

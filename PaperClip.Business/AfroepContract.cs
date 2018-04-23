@@ -10,7 +10,7 @@ namespace PaperClip.Business
     {
         public string Naam { get; set; }
         public int Aantal { get; set; }
-        public DateTime Periode {get;set;}
+        public Periode Periode {get;set;}
         public decimal Afroepkorting {get;set;}
     }
 }

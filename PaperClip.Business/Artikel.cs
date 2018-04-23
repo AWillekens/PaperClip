@@ -16,6 +16,8 @@ namespace PaperClip.Business
         public int AangerekendePrijs { get; set; }
         public int BtwPercentage {get; set; }
         public int TotaalExclBtw { get; set; }
+        public Artikelgroep Artikelgroep {get;set;}
+        public StaffelKorting StaffelKorting {get; set;}
 
     }
 }

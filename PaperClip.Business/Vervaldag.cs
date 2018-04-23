@@ -11,33 +11,16 @@ namespace PaperClip.Business
 
         //refactoren om code niet te herhalen
         public string VervaldagPolicy { get; set; }
-        public DateTime EindeMaand(DateTime dateTime)
-        {
-            return new DateTime(dateTime.Year, dateTime.Month, DateTime.DaysInMonth(dateTime.Year, dateTime.Month));
-        }
+        public int Index {get;set;}
+                
         public DateTime DertigDagen()
         {
-            return DateTime.Now.AddMonths(1);
+            return DateTime.Now.AddMonths(index);
         }
         public DateTime DertigDagenEindeMaand(DateTime dateTime)
         {
-            return new DateTime(dateTime.Year, dateTime.Month, DateTime.DaysInMonth(dateTime.Year, dateTime.Month)).AddMonths(1);
+            return new DateTime(dateTime.Year, dateTime.Month, DateTime.DaysInMonth(dateTime.Year, dateTime.Month)).AddMonths(index);
         }
-        public DateTime ZestigDagen()
-        {
-            return DateTime.Now.AddMonths(2);
-        }
-        public DateTime ZestigDagenEindeMaand(DateTime dateTime)
-        {
-            return new DateTime(dateTime.Year, dateTime.Month, DateTime.DaysInMonth(dateTime.Year, dateTime.Month)).AddMonths(2);
-        }
-        public DateTime NegentigDagen()
-        {
-            return DateTime.Now.AddMonths(3);
-        }
-        public DateTime NegentigDagenEindeMaand(DateTime dateTime)
-        {
-            return new DateTime(dateTime.Year, dateTime.Month, DateTime.DaysInMonth(dateTime.Year, dateTime.Month)).AddMonths(3);
-        }
+        
     }
 }

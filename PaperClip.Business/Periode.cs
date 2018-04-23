@@ -16,3 +16,5 @@ namespace PaperClip.Business
             Einde = einde;
             Duur = einde - begin;
         }
+    }
+}

@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace PaperClip.Business
 {
-    interface IAfroepRepository
+    public interface IAfroepRepository
     {
+        AfroepContract AfroepVoorKlantArtikel(Klant klant, Artikel artikel, DateTime datum);
     }
 }

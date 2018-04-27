@@ -12,15 +12,19 @@ namespace PaperClip.Business
         public Klant Klant { get; set; }
         public DateTime FactuurDatum { get; set; }
         public Vervaldag Vervaldag { get; set; }
+        public Artikel Artikel { get; set; }
+        public double TotaalEXclBtw { get; set; }
+
+        public Factuur(){}
 
         public Factuur(int factuurNummer)
         {
             FactuurNummer = factuurNummer;
         }
     
-        public int GeefFactuurNummer(int factuurNummer)
+        public void VerhoogFactuurNummer()
         {
-            return factuurNummer +=1;
+            FactuurNummer++;
         }
 
      

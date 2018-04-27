@@ -12,4 +12,6 @@ namespace PaperClip.Business
         public Artikel Artikel { get; set; }
         public StaffelKorting StaffelKorting { get; set; }
     }
+
+
 }

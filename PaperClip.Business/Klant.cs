@@ -11,9 +11,11 @@ namespace PaperClip.Business
         public string Naam { get; set; }
         public int Klantnummer { get; set; }
         public string Btwnummer { get; set; }
-        public Adres Adres { get; protected set; } = new Adres();
+
+        public Adres Adres { get; set; } = new Adres();
         public Vervaldag Vervaldag { get; set;}
         public KlantenCategorie KlantenCategorie { get; set; }
-
+        
 
     }
+}

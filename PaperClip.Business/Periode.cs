@@ -1,14 +1,18 @@
-using System;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace PaperClip.Business
 {
     public class Periode
     {
-        public TimeSpan Duur { get;  set; }
-        public DateTime Begin { get;  set; }
-        public DateTime Einde { get;  set; }
+        public DateTime Begin { get; set; }
+        public DateTime Einde { get; set; }
+        public TimeSpan Duur { get; set;  }
 
-        protected Periode() { }
+        public Periode() { }
 
         public Periode(DateTime begin, DateTime einde)
         {

@@ -9,12 +9,25 @@ namespace PaperClip.Business
     public class Adres
     {
         public string Straat { get; set; }
+        public int Postcode { get; set; }
         public string Gemeente { get; set; }
         public string Land { get; set; }
 
+       
+
+        public Adres() { }
+
+        public Adres(string straat,int postcode, string gemeente, string land)
+        {
+            Straat = straat;
+            Postcode = postcode;
+            Gemeente = gemeente;
+            Land = land;
+
+        }
         public override string ToString()
         {
-            return $"{Straat}{Gemeente}{Land}";
+            return $"{Straat} {Postcode} {Gemeente} {Land}";
         }
     }
 }

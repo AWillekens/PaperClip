@@ -12,12 +12,11 @@ namespace PaperClip.Business
         public string ArtikelNaam { get; set; }
         public int Aantal { get; set; }
         public string Omschrijving { get; set; }
-        public int EenheidsPrijs { get; set; }
-        public int AangerekendePrijs { get; set; }
-        public int BtwPercentage {get; set; }
-        public int TotaalExclBtw { get; set; }
-        public Artikelgroep Artikelgroep {get;set;}
-        
+        public double  EenheidsPrijs { get; set; }
+        public double AangerekendePrijs { get; set; }
+        public double BtwPercentage {get; set; }
+        public double TotaalPerArtikelExclBtw { get; set; }
+        public ArtikelGroep ArtikelGroep { get; set; }
 
     }
 }

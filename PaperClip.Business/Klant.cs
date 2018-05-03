@@ -13,9 +13,23 @@ namespace PaperClip.Business
         public string Btwnummer { get; set; }
 
         public Adres Adres { get; set; } = new Adres();
-        public Vervaldag Vervaldag { get; set;}
+        public VervaldagPolicy VervaldagPolicy { get; set;}
         public KlantenCategorie KlantenCategorie { get; set; }
-        
 
+        public Klant(){}
+
+        public Klant(string naam, Adres adres, VervaldagPolicy vervaldagPolicy, KlantenCategorie klantenCategorie)
+        {
+            Naam = naam;
+            Adres = adres;
+            VervaldagPolicy = vervaldagPolicy;
+            KlantenCategorie = klantenCategorie;
+
+        }
+
+        public override string ToString()
+        {
+            return Naam;
+        }
     }
 }

@@ -9,7 +9,12 @@ namespace PaperClip.Business
     public class KlantenCategorie
     {
         public string Naam { get; set; }
-        public int Kortingspercentage { get; set; }
+        public int KortingsPercentage { get; set; }
 
+        public KlantenCategorie(string naam, int kortingsPercentage)
+        {
+            Naam = naam;
+            KortingsPercentage = kortingsPercentage;
+        }
     }
 }

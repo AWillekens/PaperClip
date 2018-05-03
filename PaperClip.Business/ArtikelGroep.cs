@@ -9,9 +9,15 @@ namespace PaperClip.Business
     public class ArtikelGroep
     {
         public string Naam { get; set; }
-        public Artikel Artikel { get; set; }
         public StaffelKorting StaffelKorting { get; set; }
+
+        public ArtikelGroep(){}
+        public ArtikelGroep(string naam, StaffelKorting staffelKorting)
+        {
+            Naam = naam;
+            StaffelKorting = staffelKorting;
+
+        }
+
     }
-
-
 }

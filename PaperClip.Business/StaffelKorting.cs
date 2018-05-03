@@ -10,12 +10,14 @@ namespace PaperClip.Business
     {
         private SortedSet<StaffelKortingItem> _Items = new SortedSet<StaffelKortingItem>();
         
+
         public StaffelKorting(string naam)
         {
             Naam = naam;
         }
 
         public string Naam { get; set; }
+        public double StaffelKortingsPercentage { get; set; }
 
         public void NieuwItem(int aantal, double korting)
         {
@@ -30,27 +32,29 @@ namespace PaperClip.Business
         }
 
         public double KortingVoorAantal(int aantal) => _Items.LastOrDefault(i => i.Aantal <= aantal)?.Korting ?? 0.0;
-        }
     }
 
-    public class StaffelKortingItem: IComparable<StaffelKortingItem>
+
+    public class StaffelKortingItem : IComparable<StaffelKortingItem>
     {
-        internal StaffelKortingItem(int aantal, double korting )
+        internal StaffelKortingItem(int aantal, double korting)
         {
             Aantal = aantal;
             Korting = korting;
         }
+
         public int Aantal { get; }
         public double Korting { get; }
 
-    public int CompareTo(StaffelKortingItem other)
-    {
-        return Aantal - other.Aantal;
-    }
+        public int CompareTo(StaffelKortingItem other)
+        {
+            return Aantal - other.Aantal;
+        }
 
         public override string ToString()
         {
             return $"{nameof(Aantal)}:{Aantal}=>{nameof(Korting)}{Korting}";
         }
-}
 
+    }
+}

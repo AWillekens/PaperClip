@@ -49,13 +49,15 @@
     <Compile Include="Artikel.cs" />
     <Compile Include="ArtikelGroep.cs" />
     <Compile Include="Factuur.cs" />
+    <Compile Include="FactuurBouwer.cs" />
     <Compile Include="IAfroepRepository.cs" />
     <Compile Include="Klant.cs" />
     <Compile Include="KlantenCategorie.cs" />
     <Compile Include="Periode.cs" />
+    <Compile Include="PrijsBerekenaar.cs" />
     <Compile Include="StaffelKorting.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Vervaldag.cs" />
+    <Compile Include="VervaldagPolicy.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

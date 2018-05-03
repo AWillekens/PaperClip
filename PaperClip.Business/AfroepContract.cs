@@ -11,10 +11,8 @@ namespace PaperClip.Business
         public string Naam { get; set; }
         public int Aantal { get; set; }
         public  Periode Periode { get; set; }
-        public decimal AfroepKorting { get; set; }
+        public double AfroepKorting { get; set; }
         public Artikel Artikel { get; set; }
-
-
 
     }
 }

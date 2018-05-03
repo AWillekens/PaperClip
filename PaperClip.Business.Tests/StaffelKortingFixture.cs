@@ -17,13 +17,11 @@ namespace PaperClip.Business.Tests
             brol.NieuwItem(200, 45.0);
         } 
         [TestMethod]
-        public void TestNaam()
-        {
+        public void TestNaam(){
             const string expected = "Leeg";
             var target = new StaffelKorting(expected);
             Assert.AreEqual(expected, target.Naam);
         }
-
         [TestMethod]
         public void AantalKleinerEenNietGeldig()
         {
@@ -32,8 +30,6 @@ namespace PaperClip.Business.Tests
             Assert.IsFalse(target.IsGeldigItem(-1, 5.0));
             Assert.IsTrue(target.IsGeldigItem(1, 5.0));
         }
-
-
         [TestMethod]
         public void KortingGroterOfGelijkNul()
         {
@@ -42,7 +38,6 @@ namespace PaperClip.Business.Tests
             Assert.IsTrue(target.IsGeldigItem(1, 0.0));
             Assert.IsTrue(target.IsGeldigItem(1, 0.003));
         }
-
         [TestMethod]
         public void KortingVoorExactAantal()
         {
@@ -53,20 +48,17 @@ namespace PaperClip.Business.Tests
             Assert.AreEqual(expected2, brol.KortingVoorAantal(100));
             Assert.AreEqual(expected3, brol.KortingVoorAantal(200));
         }
-
         [TestMethod]
         public void KleinerDanKleinsteGeeft()
         {
             Assert.AreEqual(0.0, brol.KortingVoorAantal(1));
         }
-
         [TestMethod]
         public void TussenTweeAantallen()
         {
             Assert.AreEqual(20.0, brol.KortingVoorAantal(50));
             Assert.AreEqual(30.0, brol.KortingVoorAantal(150));
         }
-
         [TestMethod]
         public void HogerDanHoogste()
         {
@@ -87,6 +79,13 @@ namespace PaperClip.Business.Tests
             Assert.AreEqual(30.0, target.KortingVoorAantal(150));
             Assert.AreEqual(45.0, target.KortingVoorAantal(500));
 
+        }
+        [TestMethod]
+        public void KortingInVerhoudingMetAantal()
+        {
+            var target = new StaffelKorting("Korting moet groter zijn als aantal vergroot");
+            Assert.IsTrue(target.IsGeldigItem(5, 10));
+            Assert.IsTrue(target.IsGeldigItem(20,5));
         }
     }
 }
